@@ -1,7 +1,7 @@
 ---
 title: 测试
 date: 2017-10-18 18:05:03
-tags: 
+tags: water
 ---
 
 # 这是IT侠的github主页
@@ -14,3 +14,5 @@ tags:
 
 记下一些坑和处理方法：
 查看hexo各插件的安装情况：npm ls --depth 0
+
+Insert a test figure: ![](/figure/sine.png)
