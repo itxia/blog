@@ -67,3 +67,11 @@ Hi student! You've successfully authenticated, but GitHub does not provide shell
 ```
 
 ## 日常使用
+常用命令
+
+```shell
+git status
+git add xxx
+git commit -m "xxxxxx"
+git push -u origin mater
+```
