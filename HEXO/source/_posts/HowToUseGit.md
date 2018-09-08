@@ -70,8 +70,8 @@ Hi student! You've successfully authenticated, but GitHub does not provide shell
 常用命令
 
 ```shell
-git status
-git add xxx
+git status 
+git add xxx (. for all)
 git commit -m "xxxxxx"
 git push -u origin mater
 ```
