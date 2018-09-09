@@ -1,7 +1,8 @@
 ---
 title: 如何使用Git和GitHub
 date: 2018-09-08 14:08:10
-tags: 软件教学系列
+categories: 软件教学系列
+tags: Git
 ---
 
 ## 参考

@@ -1,6 +1,7 @@
 ---
 title: 测试
 date: 2017-10-18 18:05:03
+categories: 人生经验
 tags: water
 ---
 

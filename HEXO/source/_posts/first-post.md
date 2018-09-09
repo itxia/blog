@@ -1,6 +1,7 @@
 ---
 title: 第一篇
 date: 2017-10-18 23:50:02
+categories: 人生经验
 tags: water
 ---
 

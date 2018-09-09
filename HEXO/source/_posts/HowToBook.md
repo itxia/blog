@@ -1,6 +1,7 @@
 ---
 title: 如何使用IT侠预约系统
 date: 2018-09-08 12:35:45
+categories: 人生经验
 tags: tech
 ---
 
