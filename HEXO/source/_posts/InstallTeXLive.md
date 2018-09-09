@@ -6,10 +6,12 @@ tags: TeX
 author: "Yang Xu"
 ---
 
-## 下载TeXLive
-提供几个备选方案：
+整个安装、测试过程约花费1小时，请合理安排时间。
 
 <!--more-->
+
+## 下载TeXLive
+提供几个备选方案：
 
 1. [官网](https://tug.org/texlive/)。(不太推荐。官网太杂乱了，且不提供iso下载)
 2. [清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn/)。
@@ -35,26 +37,26 @@ author: "Yang Xu"
 
 ## 安装后操作
 1. 配置TeXLive的二进制文件。
-   **调用函数**(见附录，下同)：``添加 C:\D\study\TeXlive\2018\bin 到 Path``
+   ``添加 C:\D\study\TeXlive\2018\bin 到 Path`` (方法见附录，下同)
 2. 配置pdf阅读器。
    (1) 到[SumatraPDF官网](https://www.sumatrapdfreader.org/download-free-pdf-viewer.html)下载``64-bit builds``的``Portable version``，即类似``SumatraPDF-x.x.x-64.zip``的这个文件。
    (2) 解压压缩包，将里面的``SumatraPDF.exe``复制粘贴到一个你记得的地方，你可以选择重命名以方便命令行使用。比如``C:\D\study\SumatraPDF\sumatra.exe``
-   (3) **调用函数**：``添加 C:\D\study\SumatraPDF\sumatra.exe 到 Path``
+   (3) ``添加 C:\D\study\SumatraPDF\sumatra.exe 到 Path``
 
 ## 测试
 新建一个TeX文件，随意写入内容。如``test.tex``：
 ```LaTeX
 % !Mode:: "TeX:UTF-8"
-% !TEX program  = xelatex
+% !TEX program  = xelatex %这两行不是必须的，但是建议加上
 \documentclass{article}
 \begin{document}
 Hello, \LaTeX !
 \end{document}
 ```
 
-然后，在``test.tex``所在文件夹的空白处，``按住Shift``+``鼠标右键``，选择``在此处打开PowerShell窗口(Open PowerShell window here)``，输入``xelatex test.text``并回车。运行完成后，若文件夹内出现``test.pdf``且打开查看正常，则说明TeXLive安装和配置均已成功！
+然后，在``test.tex``所在文件夹的空白处，``按住Shift``+``鼠标右键``，选择``在此处打开PowerShell窗口(Open PowerShell window here)``，输入``xelatex test.tex``并回车。运行完成后，若文件夹内出现``test.pdf``且打开查看正常，则说明TeXLive安装和配置均已成功！
 
-在另一篇文章中会介绍``Microsoft Visual Studio code``，简称``VScode``配合``SumatraPDF``的使用。
+在另一篇文章中会介绍``VScode``配合``SumatraPDF``的使用。
 
 ## 附录(Appendix)
 1. **定义函数** ``添加 ... 到 Path(Add ... to Path)`` ：
