@@ -60,7 +60,7 @@ Hello, \LaTeX !
 
 然后，在``test.tex``所在文件夹的空白处，``按住Shift``+``鼠标右键``，选择``在此处打开PowerShell窗口(Open PowerShell window here)``，输入``xelatex test.tex``并回车。运行完成后，若文件夹内出现``test.pdf``且打开查看正常，则说明TeXLive安装和配置均已成功！
 
-在另一篇文章中会介绍``VScode``配合``SumatraPDF``的使用。
+在[另一篇文章](/2018/09/10/ConfigVSCode/)中会介绍配合``VScode``和``SumatraPDF``写LaTeX文档的方法。
 
 ## 附录(Appendix)
 1. **定义函数** ``添加 ... 到 Path(Add ... to Path)`` ：
