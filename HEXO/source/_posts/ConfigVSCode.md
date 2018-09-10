@@ -60,7 +60,7 @@ vscode有很多快捷键，你可以在``文件(F)`` - ``首选项(P)`` - ``键�
 
 ---
 
-可以与[TeXLive安装教程](/2018/09/09/InstallTeXLive/)配合，写一个测试LaTeX文档，按``Ctrl+B``编译。正常的工作状态如图，编辑器和pdf阅读器各占一半。
+可以与[TeXLive安装教程](/2018/09/09/InstallTeXLive/)配合，写一个测试LaTeX文档，按``Ctrl+B``编译。正常的工作状态如图，vscode和sumatra各占一半。
 ![fig11](/figure/vscode/WritingTeX.png)
 
 ---
