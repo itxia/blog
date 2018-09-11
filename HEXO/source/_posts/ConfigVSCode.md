@@ -46,7 +46,7 @@ VSCode，全称``Microsoft Visual Studio Code``，下文径称vscode(因为懒�
 7. 当进度提示下载完成，界面右下角会弹出如图所示的提示，点击``Reload Now``，等待vscode重新加载即可。
 ![fig8](/figure/vscode/8_syncing_reload.png)
 
-8. 重新加载完成后，vscode的界面就大概是这样，熟悉的中文界面！
+8. 重新加载完成后，vscode的界面就大概是这样，熟悉的中文界面！如果没有变成中文界面，请**退出**vscode再打开。
 ![fig9](/figure/vscode/9_final.png)
 
 9. 还有一件事(不是必须的)，我的配置文件里的python路径是我自己的电脑上的，如果你的电脑上的python路径与我的不同(~~嘤~~该是显然的)，那还需要单独修改一下python的路径。步骤如下：
