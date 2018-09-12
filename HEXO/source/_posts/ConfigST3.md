@@ -6,7 +6,7 @@ tags: Sublime
 ---
 
 
-#配置Sublime Text 3
+# 配置Sublime Text 3
 
 <!--more-->
 
