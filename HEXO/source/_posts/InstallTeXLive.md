@@ -14,7 +14,7 @@ author: "Yang Xu"
 ## 下载
 提供几个备选方案：
 
-1. [官网](https://tug.org/texlive/)。(不太推荐。官网太杂乱了，且不提供iso下载)
+1. [官网](https://tug.org/texlive/)。
 2. [清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn/)。
 按如图所示的步骤下载iso文件。(最推荐。使用校园网，并接上网线速度更快)
 ![TUNA TeXLive](/figure/tuna_TeXLive.png)
@@ -68,6 +68,15 @@ Hello, \LaTeX !
    (2) 选中``系统变量(System variables)``中的``Path``，点击``编辑(Edit)``
    (3) 点击``浏览(Browse)``，找到`` ... ``并选中它，点击``确定(OK)``。
    (4) 逐层点击``确定(OK)``返回。
+
+2. **更新TeXLive**
+引自[这里](https://mirror.tuna.tsinghua.edu.cn/help/CTAN/)。
+只要打开命令行(按``Windows + R``，输入cmd并回车)，执行以下命令即可。
+```shell
+tlmgr option repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet
+tlmgr update --self
+tlmgr update --all
+```
 
 ---
 <center>\~~Author: Yang Xu~~</center>
