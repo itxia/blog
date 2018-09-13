@@ -5,6 +5,8 @@ categories: 软件教学系列
 tags: Sublime
 ---
 
+好像这里必须放一句话才能出现“阅读全文”…
+
 <!--more-->
 
 <center>\~~Author: Song Gao~~</center>
