@@ -5,9 +5,6 @@ categories: 软件教学系列
 tags: Sublime
 ---
 
-
-# 配置Sublime Text 3
-
 <!--more-->
 
 <center>\~~Author: Song Gao~~</center>
@@ -63,7 +60,7 @@ import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe0
 
 ![Figure 9](/figure/st3/9.png)
 
-到了这一步，就可以使用ST3编辑tex文档并编译了，并且编译的结果会用SumatraPDF自动打开。首次编译时`Tools->Build System`选择`LaTeX`或`Automatic`，并且`Build With`选择`LaTeX - XeLaTeX`，以后只需使用`Ctrl+B的`的快捷键。使用SumatraPDF打开的文档依旧可以进行写入，并且会更新编译的结果。ST3与SumatraPDF配合使用的界面如下。
+到了这一步，就可以使用ST3编辑tex文档并编译了，并且编译的结果会用SumatraPDF自动打开。首次编译时`Tools->Build System`选择`LaTeX`或`Automatic`，并且`Build With`选择`LaTeX - XeLaTeX`，以后只需使用`Ctrl+B`的快捷键。使用SumatraPDF打开的文档依旧可以进行写入，并且会更新编译的结果。ST3与SumatraPDF配合使用的界面如下。
 
 ![Figure 10](/figure/st3/10.png)
 
