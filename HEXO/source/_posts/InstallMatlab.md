@@ -18,21 +18,22 @@ author: "Chang Ma"
 
 ## 概述
 
-本指南需要最基本的计算机使用知识，如打开指定的文件夹、复制 & 粘贴、单击下一步等。同时需安装 [7-Zip](https://www.7-zip.org/)、[WinRAR](http://www.winrar.com.cn/)、[Bandizip](https://cn.bandisoft.com/bandizip/) 或 [PeaZip](http://www.peazip.org/) 等解压缩程序中的至少一个并懂得如何使用。本文选用 MATLAB R2018a 的 Windows 版本为示例。
-其他版本 MATLAB 的安装方式与此版本相似，可以参考安装包所附的 Readme 文档和本指南进行安装和破解。本指南只适用于 64 位的 Windows 系统，并已经在数十台装有 64 位版本 Windows 10 的计算机上得到了成功验证。**除非安装者知道自己在做什么或者有足够理由，否则不建议改变本文所述的安装破解步骤**。本指南仅用于学习交流，笔者原则上不鼓励使用盗版软件。在科研工作中如果需要使用 MATLAB 也必须购买正版。在[这里](https://ww2.mathworks.cn/store)可以买到正版的 MATLAB。
+本指南需要最基本的计算机使用知识，如打开指定的文件夹、复制 & 粘贴、单击下一步等。同时需安装 [7-Zip](https://www.7-zip.org/)、[WinRAR](http://www.winrar.com.cn/)、[Bandizip](https://cn.bandisoft.com/bandizip/) 或 [PeaZip](http://www.peazip.org/) 等解压缩程序中的至少一个并懂得如何使用。本文选用 MATLAB R2018a 的 Windows 版本为示例。其他版本 MATLAB 的安装方式与此版本相似，可以参考安装包所附的 Readme 文档和本指南进行安装和破解。本指南只适用于 64 位的 Windows 系统，并已经在数十台装有 64 位版本 Windows 10 的计算机上得到了成功验证。**除非安装者知道自己在做什么或者有足够理由，否则不建议改变本文所述的安装破解步骤**。本指南仅用于学习交流，笔者原则上不鼓励使用盗版软件。在科研工作中如果需要使用 MATLAB 也必须购买正版。在[这里](https://ww2.mathworks.cn/store)可以买到正版的 MATLAB。
 
 ## 下载和解压
 
-一份安装包可以在[这个百度网盘分享](https://pan.baidu.com/s/1zRLrmkt3sp3ikqfCCtnX3w)下载，其他版本的安装包可以从[紫荆站](http://zijingbt.njuftp.org/stats.html?id=106787)、[52 破解](https://www.52pojie.cn/thread-713048-1-1.html)和[百度](https://www.baidu.com)等网站获取。
-> 编者注：也可以连接校园网后从校内FTP下载，速率很快，目前可用的站点有(引自[TeXLive安装教程](/2018/09/09/InstallTeXLive/#more))：
+一份安装包可以在[这里](https://pan.baidu.com/s/1zRLrmkt3sp3ikqfCCtnX3w)下载，其他版本的安装包可以从[紫荆站](http://zijingbt.njuftp.org/stats.html?id=106787)、[52 破解](https://www.52pojie.cn/thread-713048-1-1.html)和[百度](https://www.baidu.com)等网站获取。在下载百度网盘中文件时推荐使用 [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)、[PanDownload](https://www.pandownload.com/) 或 [SpeedPan](https://www.speedpan.com/) 等第三方百度网盘下载软件或者[百度网盘客户端](https://pan.baidu.com/download)进行下载。
+在校园网环境下安装的同学可以选择从校内 FTP 下载安装文件以获得更快的下载速度，目前已知可用的校内 FTP 包括[匡院团学联 FTP](ftp://ftp.diisquare.com/software_lecture/Matlab/)、[xy维护的 FTP1](ftp://114.212.170.211/software/study/Science/MATLAB/Matlab2018aWin64/) 和[不是xy维护的且容易gg的 FTP2](ftp://114.212.165.143/software/study/Science_soft/MATLAB/MATLAB2018a/win/)（截止2018/9/14，团学联 FTP 中的软件还是 2016b 版本，请酌情选择。xy维护的 FTP1 里有最新的版本。）
+
+<!-- > 编者注：也可以连接校园网后从校内FTP下载，速率很快，目前可用的站点有(引自[TeXLive安装教程](/2018/09/09/InstallTeXLive/#more))：
    - [匡院团学联FTP](ftp://ftp.diisquare.com)(亲生的，稳)
    - [一个野生的匡院FTP](ftp://114.212.170.211)(地址可能会变但由我维护，软件较新)
    - [另一个野生的匡院FTP](ftp://114.212.165.143)(地址极易变且经常被管理阿姨关机)等。
+-->
 
-在下载百度网盘中文件时推荐使用 [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)、[PanDownload](https://www.pandownload.com/) 或 [SpeedPan](https://www.speedpan.com/) 等第三方百度网盘下载软件或者[百度网盘客户端](https://pan.baidu.com/download)进行下载。
 下载后，**请将 R2018a\_win64\_dvd1.iso 和 R2018a\_win64\_dvd2.iso 进行解压，并将内容拷贝至同一文件夹中**。不少安装教程中推荐使用虚拟光驱软件进行挂载，但是虚拟光驱的使用较为麻烦，且经常出错。拷贝后的结果如下图所示：
 
-> 编者注：``Windows 10``可以直接双击挂载iso文件。如果不想解压占用过多硬盘空间，可以双击``dvd1.iso``点击``setup.exe``安装，到提示弹出dvd1插入dvd2时，弹出``dvd1.iso``，双击``dvd2.iso``挂载后，继续安装。需要确保``dvd1.iso``和``dvd2.iso``挂载时的盘符是一样的。关于挂载和弹出，可以参考TeXLive安装教程。如果不会挂载和弹出或是觉得可能搞不定，就按照作者的方法吧。
+<!-- 编者注：``Windows 10``可以直接双击挂载iso文件。如果不想解压占用过多硬盘空间，可以双击``dvd1.iso``点击``setup.exe``安装，到提示弹出dvd1插入dvd2时，弹出``dvd1.iso``，双击``dvd2.iso``挂载后，继续安装。需要确保``dvd1.iso``和``dvd2.iso``挂载时的盘符是一样的。关于挂载和弹出，可以参考TeXLive安装教程。如果不会挂载和弹出或是觉得可能搞不定，就按照作者的方法吧。-->
 
 ![fig1](/figure/matlab/fig1.jpg)
 
@@ -121,7 +122,7 @@ A：我手（mai）头（bu）没（qi）有 Mac 电脑，欢迎 Mac 用（you�
 
 Q：我装完了。但我一点都不会用。
 
-A：你可以在命令行窗口（就是打开 MATLAB 最中间的那个）随便输点什么体验体验，比如 2\*5 之类的。如果时间允许，欢迎参加匡院学术部和开物社举办的软件学习讲座，加这个群 `674580668` 可以了解详情。MATLAB 的帮助文档很丰富，如果有什么不清楚可以直接查阅。各种 MATLAB 书籍（我推荐谢中华的《MATLAB 从零到进阶》）和网上教程也是不错的选择。
+A：你可以在命令行窗口（就是打开 MATLAB 最中间的那个）随便输点什么体验体验，比如 2\*5 之类的。如果时间允许，欢迎参加匡院学术部和开物社举办的软件学习讲座，加这个群 `674580668` 可以了解详情。MATLAB 的帮助文档很丰富，如果有什么不清楚可以直接查阅。各种 MATLAB 书籍（我推荐郑智波翻译，David McMahon 编著的《MATLAB 揭秘》和谢中华的《MATLAB 从零到进阶》）和网上教程也是不错的选择。
 
 ---
 <center>\~~Editor: Yang Xu~~</center>
