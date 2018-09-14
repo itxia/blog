@@ -23,7 +23,7 @@ author: "Chang Ma"
 ## 下载和解压
 
 一份文中所用的安装包可以在[这里](https://pan.baidu.com/s/1ir-aUnhO4WodY9iGfi7Ilg)下载。在下载百度网盘文件时推荐使用 [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)、[PanDownload](https://www.pandownload.com/) 或 [SpeedPan](https://www.speedpan.com/) 等第三方百度网盘下载软件或者[百度网盘客户端](https://pan.baidu.com/download)进行下载，而其他版本的安装包可以从[紫荆站](http://zijingbt.njuftp.org/stats.html?id=107907)和[百度](https://www.baidu.com)等网站获取。百度贴吧 mathematica 吧也提供了一份包含了数个 Mathematica 历史版本安装破解方式的[网页](https://tiebamma.github.io/InstallTutorial/)，阅读此网页可以了解更多关于 Mathematica 安装破解的信息。
-在校园网环境下安装的同学可以选择从校内 FTP 下载安装文件以获得更快的下载速度，目前已知可用的校内 FTP 包括[匡院团学联 FTP](ftp://ftp.diisquare.com/software_lecture/Mathematica/)、[xy维护的FTP1](ftp://114.212.170.211/software/study/Science/MATLAB/) 和[不是xy维护的且容易gg的 FTP2](ftp://114.212.165.143/software/study/Science_soft/MMA/)（截止2018/9/14，团学联 FTP 中的软件还是 11.0 版本，请酌情选择。xy维护的 FTP1 里有最新的）。
+在校园网环境下安装的同学可以选择从校内 FTP 下载安装文件以获得更快的下载速度，目前已知可用的校内 FTP 包括[匡院团学联 FTP](ftp://ftp.diisquare.com/software_lecture/Mathematica/)、[xy维护的FTP1](ftp://114.212.170.211/software/study/Science/MMA/) 和[不是xy维护的且容易gg的 FTP2](ftp://114.212.165.143/software/study/Science_soft/MMA/)（截止2018/9/14，团学联 FTP 中的软件还是 11.0 版本，请酌情选择。xy维护的 FTP1 里有最新的）。
 
 下载后，请按自己喜欢的方式解压。请确保解压后的文件夹至少有以下内容：
 
