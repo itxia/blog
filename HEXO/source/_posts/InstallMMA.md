@@ -103,6 +103,12 @@ Mathematica 采用计算破解密钥的方式进行破解。破解需要的工�
 
 ## 常见问题
 
+Q：安装好后打开激活时出现下图所示的情况，且关不掉怎么办？
+![faq1](/figure/mma/faq1.png)
+
+A：重启MMA(和/或)电脑。
+
+
 Q：Mathematica 是什么？能干什么？
 
 A：Mathematica 是一种易学易用、优雅美观、高效全能的科学计算软件，同时也是 Wolfram 语言的解释器和 IDE。用 Mathematica 可以干很多事，从符号求导求积到制作词云、绘制统计地图再到查阅社会科学与天文学资料、玩康威生命游戏（game of life，是一种二维炼蛊小游戏）、做一些风格特殊的音乐。其中的一些可以在[这里](https://www.zhihu.com/question/27834147)找到。
