@@ -17,19 +17,16 @@ author: "Yang Xu"
 1. [官网](https://tug.org/texlive/)。
 2. [清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn/)。
 按如图所示的步骤下载iso文件。(最推荐。使用校园网，并接上网线速度更快)
-![TUNA TeXLive](/figure/tuna_TeXLive.png)
+![TUNA TeXLive](/figure/TeX/tuna_TeXLive.png)
 3. 校内FTP。
 使用校内FTP是最快的下载方式，但是可能存在版本老旧和地址易变的缺点，当然必须使用校园网才能连接。
-目前可用的站点有：
-   - [匡院团学联FTP](ftp://ftp.diisquare.com)(亲生的，稳)
-   - [一个野生的匡院FTP](ftp://114.212.170.211)(地址可能会变但由我维护，软件较新)
-   - [另一个野生的匡院FTP](ftp://114.212.165.143)(地址极易变且经常被管理阿姨关机)等。
+请看[这里](/2018/09/17/UseFTP/#FTP%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9D%80)。
 
 下载后得到一个类似``texlive2018-20180414.iso``这个名字的文件就对了，叫做“光盘镜像文件”，以下简称``iso文件``。
 
 ## 安装
 1. 如果你是``Windows 10``系统，那请直接双击这个``iso文件``打开它。如下图所示：
-![Mount TeXLive](/figure/mount_TeXLive.png)
+![Mount TeXLive](/figure/TeX/mount_TeXLive.png)
 如果不是``Windows 10``系统，或是不能双击直接打开，也可以用解压软件将其解压后进行后续操作。此教程只针对``Windows``用户，``Mac OS``和``Linux``用户有更简单的命令行安装方法，请自行搜索。
 
 2. 双击``install-tl-windows.bat``，稍等片刻会出现一个窗口，基本上只需要一路点击“下一步(Next)”即可。其中安装目录可以自选，为方便下文叙述，以我的安装目录``C:\D\study\TeXlive\``为例。

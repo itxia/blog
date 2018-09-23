@@ -23,7 +23,7 @@ author: "Chang Ma"
 ## 下载和解压
 
 一份安装包可以在[这里](https://pan.baidu.com/s/1zRLrmkt3sp3ikqfCCtnX3w)下载，其他版本的安装包可以从[紫荆站](http://zijingbt.njuftp.org/stats.html?id=106787)、[52 破解](https://www.52pojie.cn/thread-713048-1-1.html)和[百度](https://www.baidu.com)等网站获取。在下载百度网盘中文件时推荐使用 [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)、[PanDownload](https://www.pandownload.com/) 或 [SpeedPan](https://www.speedpan.com/) 等第三方百度网盘下载软件或者[百度网盘客户端](https://pan.baidu.com/download)进行下载。
-在校园网环境下安装的同学可以选择从校内 FTP 下载安装文件以获得更快的下载速度，目前已知可用的校内 FTP 包括[匡院团学联 FTP](ftp://ftp.diisquare.com/software_lecture/Matlab/)、[xy维护的 FTP1](ftp://114.212.170.211/software/study/Science/MATLAB/) 和[不是xy维护的且容易gg的 FTP2](ftp://114.212.165.143/software/study/Science_soft/MATLAB/)（截止2018/9/14，团学联 FTP 中的软件还是 2016b 版本，请酌情选择。xy维护的 FTP1 里有最新的版本。）
+在校园网环境下安装的同学可以选择从校内 FTP 下载安装文件以获得更快的下载速度，请看[这里](/2018/09/17/UseFTP/#FTP%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9D%80)。
 
 <!-- > 编者注：也可以连接校园网后从校内FTP下载，速率很快，目前可用的站点有(引自[TeXLive安装教程](/2018/09/09/InstallTeXLive/#more))：
    - [匡院团学联FTP](ftp://ftp.diisquare.com)(亲生的，稳)

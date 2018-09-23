@@ -1,8 +1,8 @@
 ---
-title: Comsol Multiphysics 5.3a 安装教程
+title: COMSOL Multiphysics 5.3a 安装教程
 date: 2018-09-19 22:54:33
 categories: 软件教学系列
-tags: Comsol
+tags: COMSOL
 author: Yang Xu
 ---
 
