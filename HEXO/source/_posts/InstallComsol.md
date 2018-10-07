@@ -34,7 +34,7 @@ author: Yang Xu
 5. 在这一步，需要确保``安装完成后检查更新``和``启用自动检测更新``前面的复选框**不被勾选**。其余选项可以根据个人喜好设置。
 ![fig5:update](/figure/comsol/disable_auto_update.png)
 
-6. 在这一步设置``LiveLink``，如果已经安装了``MATLAB``可以设置一下，没有安装也可以以后设置。因此如果不懂可以选择都不设置。
+6. 在这一步设置``LiveLink``，这是COMSOL与其它软件，如``MATLAB``，进行协同工作的功能。如果已经安装了那些软件，你可以设置一下；没有安装也可以以后设置。因此如果不懂可以选择都不设置。
 ![fig6:livelink](/figure/comsol/livelink.png)
 
 7. 检查无误即可开始安装，等待时间可以洗几件衣服。

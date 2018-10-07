@@ -23,7 +23,7 @@ author: "Chang Ma"
 ## 下载和解压
 
 一份安装包可以在[这里](https://pan.baidu.com/s/1zRLrmkt3sp3ikqfCCtnX3w)下载，其他版本的安装包可以从[紫荆站](http://zijingbt.njuftp.org/stats.html?id=106787)、[52 破解](https://www.52pojie.cn/thread-713048-1-1.html)和[百度](https://www.baidu.com)等网站获取。在下载百度网盘中文件时推荐使用 [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)、[PanDownload](https://www.pandownload.com/) 或 [SpeedPan](https://www.speedpan.com/) 等第三方百度网盘下载软件或者[百度网盘客户端](https://pan.baidu.com/download)进行下载。
-在校园网环境下安装的同学可以选择从校内 FTP 下载安装文件以获得更快的下载速度，请看[这里](/2018/09/17/UseFTP/#FTP%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9D%80)。
+在校园网环境下安装的同学可以选择从**校内 FTP **下载安装文件以获得更快的下载速度，请看[这里](/2018/09/17/UseFTP/#FTP%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9D%80)。
 
 <!-- > 编者注：也可以连接校园网后从校内FTP下载，速率很快，目前可用的站点有(引自[TeXLive安装教程](/2018/09/09/InstallTeXLive/#more))：
    - [匡院团学联FTP](ftp://ftp.diisquare.com)(亲生的，稳)
@@ -70,7 +70,7 @@ author: "Chang Ma"
 
 ![fig8](/figure/matlab/fig8.jpg)
 
-请等待直到安装完成。这一过程可能会持续 10 分钟或者更久，视硬盘读写速度和安装组件大小而定。这段时间可以拿来干点别的，比如搓一局炉石。若过程中弹出显示着*弹出 dvd1 并插入 dvd2* 的窗口，请检查自己之前是否按照描述的步骤操作，并自行解决问题。
+请等待直到安装完成。这一过程可能会持续 10 分钟或者更久，视硬盘读写速度和安装组件大小而定。若过程中弹出显示着*弹出 dvd1 并插入 dvd2* 的窗口，请检查自己之前是否按照描述的步骤操作，并自行解决问题。
 	
 出现这样的窗口后，点击下一步。
 
@@ -98,11 +98,21 @@ author: "Chang Ma"
 
 ## 常见问题
 
-Q：出现以下报错怎么办？
+Q：出现以下报错怎么办？(Error -8)
 
 ![fig13](/figure/matlab/fig13.jpg)
 
 A：执行破解的最后一步，即 “将 MATLAB R2018a Win64 Crack 文件夹下的 bin 文件夹复制到安装路径，并覆盖安装路径下的 bin 文件夹”。
+
+Q：出现以下报错怎么办？(Error -95)
+
+![fig14](/figure/matlab/fig14.png)
+
+A：此 bug 原因尚不明确，复现次数较少。如果出现，请按以下步骤进行。如果在某步尝试中成功打开了 MATLAB 的界面，说明破解完成，之后也不会出现这一报错。
+ - 删除 安装目录`` \bin\win64\netapi32.dll ``，管理员身份运行同目录下`` activate_matlab.exe ``，之后试着打开`` matlab.exe ``；
+ - 重新将`` MATLAB R2018a Win64 Crack ``文件夹下的`` bin ``文件夹复制到安装路径，并覆盖安装路径下的 bin 文件夹，此后将`` license_standalone.lic ``复制到 安装目录`` \lincenses ``文件夹下，之后试着打开`` matlab.exe ``；将 安装目录`` \lincenses ``文件夹下`` license_standalone.lic ``改名为`` license_<你的设备名称>_968398_R2018a.lic ``，你的设备名称可以在 ``计算机`` - ``系统属性`` 下查看，之后试着打开`` matlab.exe ``；
+ - 卸载 MATLAB，删除 MATLAB 安装目录，重新安装。
+
 
 Q：出现 “请弹出 dvd1 并插入 dvd2” 的窗口，我弹出了 dvd1，也挂载了 dvd2，也没用，怎么办？
 
@@ -116,7 +126,7 @@ Q：Linux 系统怎么安装？
 
 A：既然选择了 Linux 系统，就要有折腾 Linux 系统的觉悟。在[这里](https://pan.baidu.com/s/1YmTuh7fD0XttDPCRxV1PGg)可以找到一份 Linux 系统下 MATLAB 的安装包，你可以自己摸索着安装（安装过程是类似的，也可以在网上找到教程）。安装之后 Matlab 2018a Linux64 Crack.tar.gz 文件中有破解相关的说明。不要高兴的太早，很多 Linux 系统的发行版都会出现库问题和 jre 字体问题，这些都可以在谷歌得到解决。我的 Manjaro 格式化之前装了一份 MATLAB，但是被我格了。不然我就截图晒你一脸了。
 
-Q：Mac OS X 怎么安装？
+Q：Mac OS 怎么安装？
 
 A：我手（mai）头（bu）没（qi）有 Mac 电脑，欢迎 Mac 用（you）户（qian）增（ren）补（song）本（wo）指（yi）南（tai）。
 
