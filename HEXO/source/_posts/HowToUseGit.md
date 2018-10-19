@@ -72,7 +72,7 @@ Hi student! You've successfully authenticated, but GitHub does not provide shell
 
 ```shell
 git status 
-git add xxx (. for all)
+git add xxx #(. for all)
 git commit -m "xxxxxx"
-git push -u origin mater
+git push -u origin master
 ```
