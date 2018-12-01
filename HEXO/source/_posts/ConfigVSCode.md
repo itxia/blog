@@ -50,7 +50,7 @@ VSCode，全称``Microsoft Visual Studio Code``，下文径称vscode(因为懒�
 ![fig9](/figure/vscode/9_final.png)
 
 9. 还有一件事(不是必须的，如果你电脑上没有python那就不用进行这一步了)，我的配置文件里的python路径是我自己的电脑上的，如果你的电脑上的python路径与我的不同(~~嘤~~该是显然的)，那还需要单独修改一下python的路径。步骤如下：
-   (1) 按快捷键``Ctrl+Shift+P``，输入``settings JSON``，点击出现的``首选项：打开设置(JSON)``。如图所示。
+   (1) 按快捷键``Ctrl+Shift+P``，输入``settings``，点击出现的``首选项：打开设置(JSON)``。如图所示。
    (2) 在右半边``用户设置``里面找到如图所示的python路径，把红框里的路径修改为你电脑上``python.exe``的路径。如果是``Windows``用户，记得把``\``改成``\\``。
 ![fig10](/figure/vscode/10_modify_PythonPath.png)
 
