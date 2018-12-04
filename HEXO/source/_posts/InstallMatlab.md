@@ -25,12 +25,6 @@ author: "Chang Ma"
 一份安装包可以在[这里](https://pan.baidu.com/s/1zRLrmkt3sp3ikqfCCtnX3w)下载，其他版本的安装包可以从[紫荆站](http://zijingbt.njuftp.org/stats.html?id=106787)、[52 破解](https://www.52pojie.cn/thread-713048-1-1.html)和[百度](https://www.baidu.com)等网站获取。在下载百度网盘中文件时推荐使用 [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)、[PanDownload](https://www.pandownload.com/) 或 [SpeedPan](https://www.speedpan.com/) 等第三方百度网盘下载软件或者[百度网盘客户端](https://pan.baidu.com/download)进行下载。
 在校园网环境下安装的同学可以选择从**校内 FTP **下载安装文件以获得更快的下载速度，请看[这里](/2018/09/17/UseFTP/#FTP%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9D%80)。
 
-<!-- > 编者注：也可以连接校园网后从校内FTP下载，速率很快，目前可用的站点有(引自[TeXLive安装教程](/2018/09/09/InstallTeXLive/#more))：
-   - [匡院团学联FTP](ftp://ftp.diisquare.com)(亲生的，稳)
-   - [一个野生的匡院FTP](ftp://114.212.170.211)(地址可能会变但由我维护，软件较新)
-   - [另一个野生的匡院FTP](ftp://114.212.165.143)(地址极易变且经常被管理阿姨关机)等。
--->
-
 下载后，**请将 R2018a\_win64\_dvd1.iso 和 R2018a\_win64\_dvd2.iso 进行解压，并将内容拷贝至同一文件夹中**。不少安装教程中推荐使用虚拟光驱软件进行挂载，但是虚拟光驱的使用较为麻烦，且经常出错。拷贝后的结果如下图所示：
 
 <!-- 编者注：``Windows 10``可以直接双击挂载iso文件。如果不想解压占用过多硬盘空间，可以双击``dvd1.iso``点击``setup.exe``安装，到提示弹出dvd1插入dvd2时，弹出``dvd1.iso``，双击``dvd2.iso``挂载后，继续安装。需要确保``dvd1.iso``和``dvd2.iso``挂载时的盘符是一样的。关于挂载和弹出，可以参考TeXLive安装教程。如果不会挂载和弹出或是觉得可能搞不定，就按照作者的方法吧。-->
