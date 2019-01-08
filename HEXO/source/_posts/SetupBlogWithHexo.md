@@ -11,14 +11,24 @@ author: "Yang Xu"
 
 <!--more-->
 
+注：想要搭建自己的博客的，请看详细版。简略版主要是用于快速搭建此博客，自己的博客还是全新搭建比较好。
+
 ## 简略版
 
 ### 安装
 1. 安装``Git``、``node``、``Hexo``。
+   以下命令仅作示例（Ubuntu 18.04）：
+   ```shell
+   sudo apt install git nodejs
+   node -V
+   npm -V
+   sudo npm install -g hexo
+   hexo -V
+   ```
 <!--Linux/MacOS用户就不用说了，有方便的命令行方式；Windows用户可以去对应的官网下载安装包，或者使用scoop/chocolatey这样的包管理器。-->
 1. ``git clone ``blog这个repo。(如果是搭建自己的博客，可以先fork再clone。)
 1. ``cd blog/HEXO``
-1. ``npm ls --depth 0``，会提示缺少一些东西，用``npm install --save xxx``安装完成。
+1. ``npm ls --depth 0``，会提示缺少一大堆东西，用``npm install --save xxx``安装完成；不过似乎只要安装 `` install.sh `` 里的东西就够了，如果你的网速很快也可以一个个慢慢装。
 1. (如果是搭建自己的博客，需要配置一下``/_config.yml``文件，从上往下依次包括``Site``、``URL``、``theme``、``Deployment``。应该不难理解，如果不懂可以看下面详细版的两篇文章。)
 
 ### 用法
