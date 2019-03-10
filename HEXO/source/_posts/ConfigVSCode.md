@@ -51,14 +51,6 @@ VSCode，全称``Microsoft Visual Studio Code``，下文径称vscode(因为懒�
 
 1. 在出现的``用户设置``这个文件里，把以下内容复制粘贴进去，并保存：
    ```json
-   "latex-workshop.view.pdf.viewer": "external",
-   "latex-workshop.view.pdf.external.command": {
-     "command": "sumatra",
-     "args": [
-       "%PDF%"
-     ]
-   },
-   "latex-workshop.latex.autoBuild.onSave.enabled": false,
    "latex-workshop.latex.magic.args": [
      "-synctex=1",
      "-interaction=nonstopmode",
