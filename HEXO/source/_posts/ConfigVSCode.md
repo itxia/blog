@@ -49,7 +49,7 @@ VSCode，全称``Microsoft Visual Studio Code``，下文径称vscode(因为懒�
 
    ![fig5](/figure/vscode/5.png)
 
-1. 在出现的``用户设置``这个文件里，把以下内容复制粘贴进去，并保存：
+1. 在出现的``用户设置``这个文件里，把以下内容复制粘贴进去，并保存(<b><font color='red'>注意：</font></b>如果打开的`` 用户设置 ``/`` settings.json ``文件是空白的，要先输入一对花括号`` {} ``，再把这段内容粘贴到花括号里面)：
    ```json
    "latex-workshop.latex.magic.args": [
      "-synctex=1",
@@ -76,18 +76,6 @@ VSCode，全称``Microsoft Visual Studio Code``，下文径称vscode(因为懒�
      }
    ],
    "latex-workshop.latex.tools": [
-     {
-       "name": "latexmk",
-       "command": "latexmk",
-       "args": [
-         "-synctex=1",
-         "-interaction=nonstopmode",
-         "-file-line-error",
-         "-shell-escape",
-         "-pdf",
-         "%DOCFILE%"
-       ]
-     },
      {
        "name": "xelatex",
        "command": "xelatex",
@@ -160,17 +148,19 @@ VSCode，全称``Microsoft Visual Studio Code``，下文径称vscode(因为懒�
 1. 在Vscode里打开一个文件夹(快捷键：``Ctrl+k``再按``Ctrl+o``)，如图所示：
    ![fig7](/figure/vscode/7.png)
 
-1. 新建一个tex文件或者打开你已有的tex文件，写一些内容。你会发现，当检测到编辑的是tex文件时，vscode的左侧出现了一个``TEX``的按钮，点击它就会出现一些tex工具，方便编译、查看pdf等操作。
-
-   ![fig9](/figure/vscode/9.png)
-
-1. 不过，通常来讲，我更喜欢把左侧的这些栏隐藏。在如图所示的菜单里可以设置隐藏和显示。
-
+1. 新建一个tex文件或者打开你已有的tex文件，写一些内容。你会发现，当检测到编辑的是tex文件时，vscode的左侧出现了一个``TEX``的按钮，点击它就会出现一些tex工具，方便编译、查看pdf等操作。不过，通常来讲，我更喜欢把左侧的这些栏隐藏。在如图所示的菜单里可以设置隐藏和显示。
    ![fig10](/figure/vscode/10.png)
 
-1. 我正常使用的时候，喜欢分屏，vscode和SumatraPDF各占一半。使用``Ctrl+Shift+P``输入``LaTeX Workshop``可以查看各个命令及快捷键，如图所示。编译的快捷键是``Ctrl+L Alt+B``，``L Alt``表示左侧的``Alt``键。
-
+1. tex文件写完准备编译。按下快捷键 `` Ctrl+Shift+P ``输入 `` LaTeX Workshop: Build ``，会看到如图所示的两个选项。<b><font color='blue'>首次</font></b>编译时，选择`` Build with recipe ``：
+   ![build with recipe](/figure/vscode/buildwith.png)
+   一般情况下选择第一个 `` xelatex ``即可；如果需要**生成或重新生成**引用文献的条目(即bibliography)，则选择第二个 `` xelatex -> bibtex -> xelatex*2 ``：
+   ![recipes](/figure/vscode/recipes.png)
+   这样操作后，vscode就记住了你的编译偏好，下次编译时可以直接选择`` Build LaTeX project ``或者按它对应的快捷键了。
+   
+1. 我正常使用的时候喜欢vscode和SumatraPDF各占一半。使用``Ctrl+Shift+P``输入``LaTeX Workshop``可以查看和LaTeX相关的各个命令及快捷键，如图所示。编译的快捷键是``Ctrl+L Alt+B``，``L Alt``表示左侧的``Alt``键。
    ![fig11](/figure/vscode/11.png)
+
+
 
 vscode有很多快捷键，你可以在``文件(F)`` - ``首选项(P)`` - ``键盘快捷方式``中查看。
 
