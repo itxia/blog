@@ -12,7 +12,8 @@ tags:
 <!--more-->
 
 ## Website
-* http://help.itxia.club ~~http://itxia.club/~~
+* https://itxia.club
+* https://itxia.site
 
 ---
 
