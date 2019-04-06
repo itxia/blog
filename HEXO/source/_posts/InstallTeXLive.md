@@ -62,19 +62,24 @@ Hello, \LaTeX !
 
 ## 附录(Appendix)
 1. **定义函数** ``添加 ... 到 Path(Add ... to Path)`` ：
-    (1) ``右键此电脑(This PC)`` - ``属性(Properties)`` - ``高级系统设置(Advanced System Settings)`` - ``环境变量(Environment Variables)``。
+   (1) ``右键此电脑(This PC)`` - ``属性(Properties)`` - ``高级系统设置(Advanced System Settings)`` - ``环境变量(Environment Variables)``。
    (2) 选中``系统变量(System variables)``中的``Path``，点击``编辑(Edit)``
    (3) 点击``浏览(Browse)``，找到`` ... ``并选中它，点击``确定(OK)``。
    (4) 逐层点击``确定(OK)``返回。
 
 2. **更新TeXLive** (建议做)
-引自[这里](https://mirror.tuna.tsinghua.edu.cn/help/CTAN/)。
-打开命令行(按``Windows + R``，输入cmd并回车)，逐行执行以下命令即可。如果提示权限问题，使用管理员权限运行命令行。(但是我的电脑上不需要管理员权限)
-```shell
-tlmgr option repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet
-tlmgr update --self
-tlmgr update --all
-```
+   引自[这里](https://mirror.tuna.tsinghua.edu.cn/help/CTAN/)。
+   打开命令行(按``Windows + R``，输入cmd并回车)，逐行执行以下命令即可。如果提示权限问题，使用管理员权限运行命令行。(但是我的电脑上不需要管理员权限)
+   ```shell
+   tlmgr option repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet
+   tlmgr update --self
+   tlmgr update --all
+   ```
+
+3. FAQ
+   1. 报错(最后是`` Goodbye ``，开头有`` spawn: cmd ``)
+      - 原因：CTeX卸载不完全导致的
+      - 解决：在环境变量里添加`` C:\Windows\System32 ``
 
 ---
 <center>\~~Author: Yang Xu~~</center>
